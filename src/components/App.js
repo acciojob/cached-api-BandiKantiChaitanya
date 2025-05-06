@@ -27,7 +27,7 @@ function App() {
       { 
         memorizedUser.map((user)=>(
           <div key={user.id}  style={{marginBottom:'20px'}} >
-            <li><strong>{user.title}</strong></li>
+            <li><h4>{user.title}</h4></li>
             <dl>{user.body}</dl>
           </div>
         ))
